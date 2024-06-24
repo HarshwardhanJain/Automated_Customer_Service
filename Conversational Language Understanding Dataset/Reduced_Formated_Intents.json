@@ -1,0 +1,548 @@
+[
+    {
+        "intent": "greeting",
+        "language": "en-us",
+        "text": "Hi",
+        "entities": []
+    },
+    {
+        "intent": "greeting",
+        "language": "en-us",
+        "text": "How are you?",
+        "entities": []
+    },
+    {
+        "intent": "greeting",
+        "language": "en-us",
+        "text": "Is anyone there?",
+        "entities": []
+    },
+    {
+        "intent": "greeting",
+        "language": "en-us",
+        "text": "Hello",
+        "entities": []
+    },
+    {
+        "intent": "greeting",
+        "language": "en-us",
+        "text": "Good day",
+        "entities": []
+    },
+    {
+        "intent": "greeting",
+        "language": "en-us",
+        "text": "What's up",
+        "entities": []
+    },
+    {
+        "intent": "greeting",
+        "language": "en-us",
+        "text": "how are ya",
+        "entities": []
+    },
+    {
+        "intent": "greeting",
+        "language": "en-us",
+        "text": "heyy",
+        "entities": []
+    },
+    {
+        "intent": "greeting",
+        "language": "en-us",
+        "text": "whatsup",
+        "entities": []
+    },
+    {
+        "intent": "greeting",
+        "language": "en-us",
+        "text": "??? ??? ??",
+        "entities": []
+    },
+    {
+        "intent": "goodbye",
+        "language": "en-us",
+        "text": "cya",
+        "entities": []
+    },
+    {
+        "intent": "goodbye",
+        "language": "en-us",
+        "text": "see you",
+        "entities": []
+    },
+    {
+        "intent": "goodbye",
+        "language": "en-us",
+        "text": "bye bye",
+        "entities": []
+    },
+    {
+        "intent": "goodbye",
+        "language": "en-us",
+        "text": "See you later",
+        "entities": []
+    },
+    {
+        "intent": "goodbye",
+        "language": "en-us",
+        "text": "Goodbye",
+        "entities": []
+    },
+    {
+        "intent": "goodbye",
+        "language": "en-us",
+        "text": "I am Leaving",
+        "entities": []
+    },
+    {
+        "intent": "goodbye",
+        "language": "en-us",
+        "text": "Bye",
+        "entities": []
+    },
+    {
+        "intent": "goodbye",
+        "language": "en-us",
+        "text": "Have a Good day",
+        "entities": []
+    },
+    {
+        "intent": "goodbye",
+        "language": "en-us",
+        "text": "talk to you later",
+        "entities": []
+    },
+    {
+        "intent": "goodbye",
+        "language": "en-us",
+        "text": "ttyl",
+        "entities": []
+    },
+    {
+        "intent": "goodbye",
+        "language": "en-us",
+        "text": "i got to go",
+        "entities": []
+    },
+    {
+        "intent": "goodbye",
+        "language": "en-us",
+        "text": "gtg",
+        "entities": []
+    },
+    {
+        "intent": "creator",
+        "language": "en-us",
+        "text": "what is the name of your developers",
+        "entities": []
+    },
+    {
+        "intent": "creator",
+        "language": "en-us",
+        "text": "what is the name of your creators",
+        "entities": []
+    },
+    {
+        "intent": "creator",
+        "language": "en-us",
+        "text": "what is the name of the developers",
+        "entities": []
+    },
+    {
+        "intent": "creator",
+        "language": "en-us",
+        "text": "what is the name of the creators",
+        "entities": []
+    },
+    {
+        "intent": "creator",
+        "language": "en-us",
+        "text": "who created you",
+        "entities": []
+    },
+    {
+        "intent": "creator",
+        "language": "en-us",
+        "text": "your developers",
+        "entities": []
+    },
+    {
+        "intent": "creator",
+        "language": "en-us",
+        "text": "your creators",
+        "entities": []
+    },
+    {
+        "intent": "creator",
+        "language": "en-us",
+        "text": "who are your developers",
+        "entities": []
+    },
+    {
+        "intent": "creator",
+        "language": "en-us",
+        "text": "developers",
+        "entities": []
+    },
+    {
+        "intent": "creator",
+        "language": "en-us",
+        "text": "you are made by",
+        "entities": []
+    },
+    {
+        "intent": "creator",
+        "language": "en-us",
+        "text": "you are made by whom",
+        "entities": []
+    },
+    {
+        "intent": "creator",
+        "language": "en-us",
+        "text": "who create you",
+        "entities": []
+    },
+    {
+        "intent": "creator",
+        "language": "en-us",
+        "text": "creators",
+        "entities": []
+    },
+    {
+        "intent": "creator",
+        "language": "en-us",
+        "text": "who made you",
+        "entities": []
+    },
+    {
+        "intent": "creator",
+        "language": "en-us",
+        "text": "who designed you",
+        "entities": []
+    },
+    {
+        "intent": "name",
+        "language": "en-us",
+        "text": "name",
+        "entities": []
+    },
+    {
+        "intent": "name",
+        "language": "en-us",
+        "text": "your name",
+        "entities": []
+    },
+    {
+        "intent": "name",
+        "language": "en-us",
+        "text": "do you have a name",
+        "entities": []
+    },
+    {
+        "intent": "name",
+        "language": "en-us",
+        "text": "what are you called",
+        "entities": []
+    },
+    {
+        "intent": "name",
+        "language": "en-us",
+        "text": "what is your name",
+        "entities": []
+    },
+    {
+        "intent": "name",
+        "language": "en-us",
+        "text": "what should I call you",
+        "entities": []
+    },
+    {
+        "intent": "name",
+        "language": "en-us",
+        "text": "whats your name?",
+        "entities": []
+    },
+    {
+        "intent": "name",
+        "language": "en-us",
+        "text": "what are you",
+        "entities": []
+    },
+    {
+        "intent": "name",
+        "language": "en-us",
+        "text": "who are you",
+        "entities": []
+    },
+    {
+        "intent": "name",
+        "language": "en-us",
+        "text": "who is this",
+        "entities": []
+    },
+    {
+        "intent": "name",
+        "language": "en-us",
+        "text": "what am i chatting to",
+        "entities": []
+    },
+    {
+        "intent": "name",
+        "language": "en-us",
+        "text": "who am i taking to",
+        "entities": []
+    },
+    {
+        "intent": "hours",
+        "language": "en-us",
+        "text": "timing of college",
+        "entities": []
+    },
+    {
+        "intent": "hours",
+        "language": "en-us",
+        "text": "what is college timing",
+        "entities": []
+    },
+    {
+        "intent": "hours",
+        "language": "en-us",
+        "text": "working days",
+        "entities": []
+    },
+    {
+        "intent": "hours",
+        "language": "en-us",
+        "text": "when are you guys open",
+        "entities": []
+    },
+    {
+        "intent": "hours",
+        "language": "en-us",
+        "text": "what are your hours",
+        "entities": []
+    },
+    {
+        "intent": "hours",
+        "language": "en-us",
+        "text": "hours of operation",
+        "entities": []
+    },
+    {
+        "intent": "hours",
+        "language": "en-us",
+        "text": "when is the college open",
+        "entities": []
+    },
+    {
+        "intent": "hours",
+        "language": "en-us",
+        "text": "college timing",
+        "entities": []
+    },
+    {
+        "intent": "hours",
+        "language": "en-us",
+        "text": "what about college timing",
+        "entities": []
+    },
+    {
+        "intent": "hours",
+        "language": "en-us",
+        "text": "is college open on saturday",
+        "entities": []
+    },
+    {
+        "intent": "hours",
+        "language": "en-us",
+        "text": "how long the college opens",
+        "entities": []
+    },
+    {
+        "intent": "hours",
+        "language": "en-us",
+        "text": "college opens from when to when",
+        "entities": []
+    },
+    {
+        "intent": "hours",
+        "language": "en-us",
+        "text": "college hours",
+        "entities": []
+    },
+    {
+        "intent": "hours",
+        "language": "en-us",
+        "text": "what are the college hours",
+        "entities": []
+    },
+    {
+        "intent": "sports",
+        "language": "en-us",
+        "text": "play",
+        "entities": []
+    },
+    {
+        "intent": "sports",
+        "language": "en-us",
+        "text": "play sports",
+        "entities": []
+    },
+    {
+        "intent": "sports",
+        "language": "en-us",
+        "text": "can we play games",
+        "entities": []
+    },
+    {
+        "intent": "sports",
+        "language": "en-us",
+        "text": "do you have basketball court",
+        "entities": []
+    },
+    {
+        "intent": "sports",
+        "language": "en-us",
+        "text": "do you have cricket ground",
+        "entities": []
+    },
+    {
+        "intent": "sports",
+        "language": "en-us",
+        "text": "do you have volleyball court",
+        "entities": []
+    },
+    {
+        "intent": "sports",
+        "language": "en-us",
+        "text": "do you have table tennis",
+        "entities": []
+    },
+    {
+        "intent": "sports",
+        "language": "en-us",
+        "text": "do you have tennis court",
+        "entities": []
+    },
+    {
+        "intent": "sports",
+        "language": "en-us",
+        "text": "do you have badminton court",
+        "entities": []
+    },
+    {
+        "intent": "sports",
+        "language": "en-us",
+        "text": "sports ground",
+        "entities": []
+    },
+    {
+        "intent": "sports",
+        "language": "en-us",
+        "text": "do you have sports ground",
+        "entities": []
+    },
+    {
+        "intent": "sports",
+        "language": "en-us",
+        "text": "do you have a gym",
+        "entities": []
+    },
+    {
+        "intent": "sports",
+        "language": "en-us",
+        "text": "can i play",
+        "entities": []
+    },
+    {
+        "intent": "sports",
+        "language": "en-us",
+        "text": "can i play sports",
+        "entities": []
+    },
+    {
+        "intent": "sports",
+        "language": "en-us",
+        "text": "are sports available",
+        "entities": []
+    },
+    {
+        "intent": "sports",
+        "language": "en-us",
+        "text": "are games available",
+        "entities": []
+    },
+    {
+        "intent": "sports",
+        "language": "en-us",
+        "text": "is gym available",
+        "entities": []
+    },
+    {
+        "intent": "sports",
+        "language": "en-us",
+        "text": "sports available",
+        "entities": []
+    },
+    {
+        "intent": "sports",
+        "language": "en-us",
+        "text": "games available",
+        "entities": []
+    },
+    {
+        "intent": "sports",
+        "language": "en-us",
+        "text": "gym available",
+        "entities": []
+    },
+    {
+        "intent": "salutation",
+        "language": "en-us",
+        "text": "okk",
+        "entities": []
+    },
+    {
+        "intent": "salutation",
+        "language": "en-us",
+        "text": "okie",
+        "entities": []
+    },
+    {
+        "intent": "task",
+        "language": "en-us",
+        "text": "what can you do",
+        "entities": []
+    },
+    {
+        "intent": "task",
+        "language": "en-us",
+        "text": "what are the things you can do",
+        "entities": []
+    },
+    {
+        "intent": "ragging",
+        "language": "en-us",
+        "text": "ragging",
+        "entities": []
+    },
+    {
+        "intent": "ragging",
+        "language": "en-us",
+        "text": "is ragging practice active in college",
+        "entities": []
+    },
+    {
+        "intent": "hod",
+        "language": "en-us",
+        "text": "hod",
+        "entities": []
+    },
+    {
+        "intent": "hod",
+        "language": "en-us",
+        "text": "hod name",
+        "entities": []
+    }
+]
