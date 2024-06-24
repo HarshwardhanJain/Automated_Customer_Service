@@ -1,0 +1,17 @@
+1) Custom Question Answering Service:
+
+Name: AutomatedCustomerService
+
+Prediction URL: https://customerservicebot.cognitiveservices.azure.com/language/:query-knowledgebases?projectName=AutomatedCustomerService&api-version=2021-10-01&deploymentName=production
+
+Sample request: curl -X POST "https://customerservicebot.cognitiveservices.azure.com/language/:query-knowledgebases?projectName=AutomatedCustomerService&api-version=2021-10-01&deploymentName=production" -H "Ocp-Apim-Subscription-Key: 4ce9d905343b406d8d4c1e2a37db8314" -H "Content-Type: application/json" -d "{\"top\":3,\"question\":\"YOUR_QUESTION_HERE\",\"includeUnstructuredSources\":true,\"confidenceScoreThreshold\":\"YOUR_SCORE_THRESHOLD_HERE\",\"answerSpanRequest\":{\"enable\":true,\"topAnswersWithSpan\":1,\"confidenceScoreThreshold\":\"YOUR_SCORE_THRESHOLD_HERE\"},\"filters\":{\"metadataFilter\":{\"logicalOperation\":\"YOUR_LOGICAL_OPERATION_HERE\",\"metadata\":[{\"key\":\"YOUR_ADDITIONAL_PROP_KEY_HERE\",\"value\":\"YOUR_ADDITIONAL_PROP_VALUE_HERE\"}]}}}"
+
+
+
+2) Conversational Language Understanding:
+
+Name: AutomatedCustomerService_Intent
+
+Prediction URL: https://customerservicebot.cognitiveservices.azure.com/language/:analyze-conversations?api-version=2022-10-01-preview
+
+Sample request: curl -X POST "https://customerservicebot.cognitiveservices.azure.com/language/:analyze-conversations?api-version=2022-10-01-preview" -H "Ocp-Apim-Subscription-Key: 4ce9d905343b406d8d4c1e2a37db8314"  -H "Apim-Request-Id: 4ffcac1c-b2fc-48ba-bd6d-b69d9942995a" -H "Content-Type: application/json" -d "{\"kind\":\"Conversation\",\"analysisInput\":{\"conversationItem\":{\"id\":\"PARTICIPANT_ID_HERE\",\"text\":\"YOUR_QUERY_HERE\",\"modality\":\"text\",\"language\":\"QUERY_LANGUAGE_HERE\",\"participantId\":\"PARTICIPANT_ID_HERE\"}},\"parameters\":{\"projectName\":\"AutomatedCustomerService_Intent\",\"verbose\":true,\"deploymentName\":\"IntentRecognizer_Deployment_1\",\"stringIndexType\":\"TextElement_V8\"}}"
