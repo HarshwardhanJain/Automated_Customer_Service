@@ -1,11 +1,14 @@
 # Automated_Customer_Service
 
 
+
 ### Microsoft Azure Project
+
 
 
 ## Overview
 Medical_QA_Bot is a Node.js-based bot application that assists users in obtaining medical information by leveraging QnA Maker and Conversational Language Understanding (CLU) services. The bot can answer medical questions, recognize user intents, and provide relevant information from various medical datasets.
+
 
 
 ## Data Overview
@@ -22,11 +25,13 @@ The dataset comprises various Excel files with comprehensive medical question-an
 * **Disease_Control_and_PreventionQA.xlsx**: Focuses on disease control and prevention queries.
 
 
+
 ## Table of Contents
 1. [Installation](#installation)
 2. [Setup](#setup)
 3. [Running the Application](#running-the-application)
 4. [File Structure](#file-structure)
+
 
 
 ## Installation
@@ -52,6 +57,11 @@ npm install
 ```
 
 
+
+## Setup
+
+
+
 ## Running the Application
 
 ### Run the Bot Application
@@ -60,6 +70,7 @@ npm install
 node index.js
 ```
 * **Access the bot via the Bot Framework Emulator at http://localhost:3978/api/messages**
+
 
 
 ## File Structure
@@ -89,6 +100,7 @@ Medical_QA_Bot/
 ├── Prediction URLs For CustomQuestionAnswering And ConversationLanguageUnderstanding.txt
 └── README.md
 ```
+
 
 
 ## Note
