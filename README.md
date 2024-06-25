@@ -81,9 +81,9 @@ Medical_QA_Bot/
 │   └── Reduced_Formated_Intents.json
 │
 ├── Medical Q&A Dataset/
+│   ├── Disease_Control_and_PreventionQA.xlsx
 │   ├── OtherQA.xlsx
-│   ├── SeniorHealthQA.xlsx
-│   └── Disease_Control_and_PreventionQA.xlsx
+│   └── SeniorHealthQA.xlsx
 │
 ├── medical-bot/
 │   ├── deploymentTemplates/
