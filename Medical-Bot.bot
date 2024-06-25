@@ -1,0 +1,18 @@
+{
+    "name": "Medical-Bot",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "name": "http://localhost:3978//api/messages",
+            "id": "10f779c0-32b8-11ef-857f-4d6ad85ba1a1",
+            "appId": "",
+            "appPassword": "",
+            "endpoint": "http://localhost:3978//api/messages"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0",
+    "path": "D:\\Microsoft Project\\Medical-Bot.bot",
+    "overrides": null
+}
