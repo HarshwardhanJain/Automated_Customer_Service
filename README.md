@@ -69,7 +69,7 @@ npm install
 ```sh
 node index.js
 ```
-* **Access the bot via the Bot Framework Emulator at http://localhost:3978/api/messages**
+* **Access the bot via the Bot Framework Emulator at http://localhost:3978/api/messages**.
 
 
 
@@ -104,5 +104,6 @@ Medical_QA_Bot/
 
 
 ## Note
+* **Utilize Visual Studio Code throughout the entire process.**
 * **Ensure that the library versions are accurately installed and that the processes are carefully followed.**
 * **Ensure all file paths are correct.**
