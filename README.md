@@ -43,15 +43,14 @@ cd medical-bot
 ```
 
 ### Uninstall Dependencies
+
 * **To prevent conflicts between libraries, uninstall the following packages:**
 ```sh
-npm uninstall -g botbuilder
-npm uninstall -g axios
-npm uninstall -g dotenv
-npm uninstall -g restify
+npm uninstall -g botbuilder axios dotenv restify
 ```
 
 ### Install Dependencies
+* **This command will install all necessary dependencies listed in the `package.json` file:**
 ```sh
 npm install 
 ```
@@ -60,12 +59,35 @@ npm install
 
 ## Setup
 
+### Environment Configuration
+
+**1. Create a .env file in the root directory:**
+```sh
+touch .env
+```
+
+**2. Open the .env file in a text editor (e.g., using nano or vim):**
+```sh
+nano .env
+```
+
+**3. Add the following environment variables to the .env file:**
+```
+QNA_ENDPOINT=https://customerservicebot.cognitiveservices.azure.com/language/:query-knowledgebases?projectName=AutomatedCustomerService&api-version=2021-10-01&deploymentName=production
+QNA_KEY=4ce9d905343b406d8d4c1e2a37db8314
+CLU_ENDPOINT=https://customerservicebot.cognitiveservices.azure.com/language/:analyze-conversations?api-version=2022-10-01-preview
+CLU_KEY=4ce9d905343b406d8d4c1e2a37db8314
+```
+
+**4. Save and exit the editor:**
+* **If using nano, press Ctrl + X, then Y, then Enter.**
+* **If using vim, press Esc, then :wq, then Enter.**
+
 
 
 ## Running the Application
 
 ### Run the Bot Application
-
 ```sh
 node index.js
 ```
@@ -104,6 +126,6 @@ Medical_QA_Bot/
 
 
 ## Note
-* **Utilize Visual Studio Code throughout the entire process.**
-* **Ensure that the library versions are accurately installed and that the processes are carefully followed.**
-* **Ensure all file paths are correct.**
+* **Make sure `npm install` is executed within the `medical-bot` directory.**
+* **Ensure your `.env` file has correct credentials and endpoints.**
+* **Verify that all file paths in the project are correct.**
