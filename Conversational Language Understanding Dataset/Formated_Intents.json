@@ -56,7 +56,37 @@
     {
         "intent": "greeting",
         "language": "en-us",
-        "text": "??? ??? ??",
+        "text": "Hey there",
+        "entities": []
+    },
+    {
+        "intent": "greeting",
+        "language": "en-us",
+        "text": "Good morning",
+        "entities": []
+    },
+    {
+        "intent": "greeting",
+        "language": "en-us",
+        "text": "Good evening",
+        "entities": []
+    },
+    {
+        "intent": "greeting",
+        "language": "en-us",
+        "text": "Hi there",
+        "entities": []
+    },
+    {
+        "intent": "greeting",
+        "language": "en-us",
+        "text": "Hiya",
+        "entities": []
+    },
+    {
+        "intent": "greeting",
+        "language": "en-us",
+        "text": "Greetings",
         "entities": []
     },
     {
@@ -129,6 +159,18 @@
         "intent": "goodbye",
         "language": "en-us",
         "text": "gtg",
+        "entities": []
+    },
+    {
+        "intent": "goodbye",
+        "language": "en-us",
+        "text": "farewell",
+        "entities": []
+    },
+    {
+        "intent": "goodbye",
+        "language": "en-us",
+        "text": "Take care",
         "entities": []
     },
     {
@@ -222,6 +264,18 @@
         "entities": []
     },
     {
+        "intent": "creator",
+        "language": "en-us",
+        "text": "who programmed you",
+        "entities": []
+    },
+    {
+        "intent": "creator",
+        "language": "en-us",
+        "text": "who built you",
+        "entities": []
+    },
+    {
         "intent": "name",
         "language": "en-us",
         "text": "name",
@@ -291,6 +345,30 @@
         "intent": "name",
         "language": "en-us",
         "text": "who am i taking to",
+        "entities": []
+    },
+    {
+        "intent": "name",
+        "language": "en-us",
+        "text": "do you go by a name",
+        "entities": []
+    },
+    {
+        "intent": "name",
+        "language": "en-us",
+        "text": "what do I call you",
+        "entities": []
+    },
+    {
+        "intent": "name",
+        "language": "en-us",
+        "text": "what's your handle",
+        "entities": []
+    },
+    {
+        "intent": "name",
+        "language": "en-us",
+        "text": "do you have an identifier",
         "entities": []
     },
     {
@@ -375,6 +453,24 @@
         "intent": "hours",
         "language": "en-us",
         "text": "what are the college hours",
+        "entities": []
+    },
+    {
+        "intent": "hours",
+        "language": "en-us",
+        "text": "when does college start",
+        "entities": []
+    },
+    {
+        "intent": "hours",
+        "language": "en-us",
+        "text": "when does college end",
+        "entities": []
+    },
+    {
+        "intent": "hours",
+        "language": "en-us",
+        "text": "what time is college",
         "entities": []
     },
     {
@@ -482,19 +578,13 @@
     {
         "intent": "sports",
         "language": "en-us",
-        "text": "sports available",
+        "text": "are there sports facilities",
         "entities": []
     },
     {
         "intent": "sports",
         "language": "en-us",
-        "text": "games available",
-        "entities": []
-    },
-    {
-        "intent": "sports",
-        "language": "en-us",
-        "text": "gym available",
+        "text": "do you offer sports",
         "entities": []
     },
     {
@@ -510,6 +600,84 @@
         "entities": []
     },
     {
+        "intent": "salutation",
+        "language": "en-us",
+        "text": "sure",
+        "entities": []
+    },
+    {
+        "intent": "salutation",
+        "language": "en-us",
+        "text": "alright",
+        "entities": []
+    },
+    {
+        "intent": "salutation",
+        "language": "en-us",
+        "text": "fine",
+        "entities": []
+    },
+    {
+        "intent": "salutation",
+        "language": "en-us",
+        "text": "okay",
+        "entities": []
+    },
+    {
+        "intent": "salutation",
+        "language": "en-us",
+        "text": "sounds good",
+        "entities": []
+    },
+    {
+        "intent": "salutation",
+        "language": "en-us",
+        "text": "got it",
+        "entities": []
+    },
+    {
+        "intent": "salutation",
+        "language": "en-us",
+        "text": "cool",
+        "entities": []
+    },
+    {
+        "intent": "salutation",
+        "language": "en-us",
+        "text": "roger that",
+        "entities": []
+    },
+    {
+        "intent": "salutation",
+        "language": "en-us",
+        "text": "ok then",
+        "entities": []
+    },
+    {
+        "intent": "salutation",
+        "language": "en-us",
+        "text": "right",
+        "entities": []
+    },
+    {
+        "intent": "salutation",
+        "language": "en-us",
+        "text": "understood",
+        "entities": []
+    },
+    {
+        "intent": "salutation",
+        "language": "en-us",
+        "text": "very well",
+        "entities": []
+    },
+    {
+        "intent": "salutation",
+        "language": "en-us",
+        "text": "yes",
+        "entities": []
+    },
+    {
         "intent": "task",
         "language": "en-us",
         "text": "what can you do",
@@ -519,6 +687,84 @@
         "intent": "task",
         "language": "en-us",
         "text": "what are the things you can do",
+        "entities": []
+    },
+    {
+        "intent": "task",
+        "language": "en-us",
+        "text": "what are your functions",
+        "entities": []
+    },
+    {
+        "intent": "task",
+        "language": "en-us",
+        "text": "what tasks can you perform",
+        "entities": []
+    },
+    {
+        "intent": "task",
+        "language": "en-us",
+        "text": "what services do you offer",
+        "entities": []
+    },
+    {
+        "intent": "task",
+        "language": "en-us",
+        "text": "what can you help with",
+        "entities": []
+    },
+    {
+        "intent": "task",
+        "language": "en-us",
+        "text": "what's your purpose",
+        "entities": []
+    },
+    {
+        "intent": "task",
+        "language": "en-us",
+        "text": "what is your role",
+        "entities": []
+    },
+    {
+        "intent": "task",
+        "language": "en-us",
+        "text": "how can you assist me",
+        "entities": []
+    },
+    {
+        "intent": "task",
+        "language": "en-us",
+        "text": "what can you assist with",
+        "entities": []
+    },
+    {
+        "intent": "task",
+        "language": "en-us",
+        "text": "what are your capabilities",
+        "entities": []
+    },
+    {
+        "intent": "task",
+        "language": "en-us",
+        "text": "what do you do",
+        "entities": []
+    },
+    {
+        "intent": "task",
+        "language": "en-us",
+        "text": "what can you provide",
+        "entities": []
+    },
+    {
+        "intent": "task",
+        "language": "en-us",
+        "text": "what are you good at",
+        "entities": []
+    },
+    {
+        "intent": "task",
+        "language": "en-us",
+        "text": "how can you help me",
         "entities": []
     },
     {
@@ -534,6 +780,84 @@
         "entities": []
     },
     {
+        "intent": "ragging",
+        "language": "en-us",
+        "text": "are there any ragging incidents",
+        "entities": []
+    },
+    {
+        "intent": "ragging",
+        "language": "en-us",
+        "text": "ragging cases",
+        "entities": []
+    },
+    {
+        "intent": "ragging",
+        "language": "en-us",
+        "text": "ragging report",
+        "entities": []
+    },
+    {
+        "intent": "ragging",
+        "language": "en-us",
+        "text": "is ragging banned",
+        "entities": []
+    },
+    {
+        "intent": "ragging",
+        "language": "en-us",
+        "text": "is ragging allowed",
+        "entities": []
+    },
+    {
+        "intent": "ragging",
+        "language": "en-us",
+        "text": "is there any ragging",
+        "entities": []
+    },
+    {
+        "intent": "ragging",
+        "language": "en-us",
+        "text": "anti-ragging measures",
+        "entities": []
+    },
+    {
+        "intent": "ragging",
+        "language": "en-us",
+        "text": "ragging policy",
+        "entities": []
+    },
+    {
+        "intent": "ragging",
+        "language": "en-us",
+        "text": "ragging incidents",
+        "entities": []
+    },
+    {
+        "intent": "ragging",
+        "language": "en-us",
+        "text": "ragging complaints",
+        "entities": []
+    },
+    {
+        "intent": "ragging",
+        "language": "en-us",
+        "text": "report ragging",
+        "entities": []
+    },
+    {
+        "intent": "ragging",
+        "language": "en-us",
+        "text": "complain about ragging",
+        "entities": []
+    },
+    {
+        "intent": "ragging",
+        "language": "en-us",
+        "text": "report ragging incidents",
+        "entities": []
+    },
+    {
         "intent": "hod",
         "language": "en-us",
         "text": "hod",
@@ -543,6 +867,84 @@
         "intent": "hod",
         "language": "en-us",
         "text": "hod name",
+        "entities": []
+    },
+    {
+        "intent": "hod",
+        "language": "en-us",
+        "text": "who is the hod",
+        "entities": []
+    },
+    {
+        "intent": "hod",
+        "language": "en-us",
+        "text": "name of hod",
+        "entities": []
+    },
+    {
+        "intent": "hod",
+        "language": "en-us",
+        "text": "head of department",
+        "entities": []
+    },
+    {
+        "intent": "hod",
+        "language": "en-us",
+        "text": "department head",
+        "entities": []
+    },
+    {
+        "intent": "hod",
+        "language": "en-us",
+        "text": "who is head of department",
+        "entities": []
+    },
+    {
+        "intent": "hod",
+        "language": "en-us",
+        "text": "who is department head",
+        "entities": []
+    },
+    {
+        "intent": "hod",
+        "language": "en-us",
+        "text": "department head name",
+        "entities": []
+    },
+    {
+        "intent": "hod",
+        "language": "en-us",
+        "text": "head of department name",
+        "entities": []
+    },
+    {
+        "intent": "hod",
+        "language": "en-us",
+        "text": "who's the hod",
+        "entities": []
+    },
+    {
+        "intent": "hod",
+        "language": "en-us",
+        "text": "name the hod",
+        "entities": []
+    },
+    {
+        "intent": "hod",
+        "language": "en-us",
+        "text": "name head of department",
+        "entities": []
+    },
+    {
+        "intent": "hod",
+        "language": "en-us",
+        "text": "what's the hod's name",
+        "entities": []
+    },
+    {
+        "intent": "hod",
+        "language": "en-us",
+        "text": "name the department head",
         "entities": []
     }
 ]
