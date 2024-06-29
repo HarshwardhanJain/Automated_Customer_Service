@@ -44,8 +44,8 @@ const onTurnErrorHandler = async (context, error) => {
         'TurnError'
     );
 
-    await context.sendActivity('The bot encountered an error or bug.');
-    await context.sendActivity('To continue to run this bot, please fix the bot source code.');
+    await context.sendActivity('The bot encountered an error or bug. Please try again later.');
+    await context.sendActivity('If the problem persists, please contact support.');
 };
 
 adapter.onTurnError = onTurnErrorHandler;

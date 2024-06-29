@@ -13,7 +13,7 @@ class MEDICALBOT extends ActivityHandler {
                 await context.sendActivity(MessageFactory.text(answer, answer));
             } catch (error) {
                 console.error(`Error fetching medical answer: ${error}`);
-                await context.sendActivity("I'm sorry, I couldn't fetch an answer to your question at the moment.");
+                await context.sendActivity("I'm sorry, I couldn't fetch an answer to your question at the moment. Please try again later.");
             }
 
             await next();
@@ -21,7 +21,7 @@ class MEDICALBOT extends ActivityHandler {
 
         this.onMembersAdded(async (context, next) => {
             const membersAdded = context.activity.membersAdded;
-            const welcomeText = 'Hello and welcome!';
+            const welcomeText = 'Hello and welcome to the Medical Bot! How can I assist you today?';
             for (let cnt = 0; cnt < membersAdded.length; ++cnt) {
                 if (membersAdded[cnt].id !== context.activity.recipient.id) {
                     await context.sendActivity(MessageFactory.text(welcomeText, welcomeText));
@@ -99,7 +99,7 @@ class MEDICALBOT extends ActivityHandler {
             const topAnswer = response.answers[0];
             return topAnswer.answer;
         }
-        return "I'm not sure about that.";
+        return "I'm not sure about that. Could you please provide more details or ask another question?";
     }
 
     processCLUResponse(response) {
