@@ -73,10 +73,10 @@ nano .env
 
 **3. Add the following environment variables to the .env file:**
 ```
-QNA_ENDPOINT=https://customerservicebot.cognitiveservices.azure.com/language/:query-knowledgebases?projectName=AutomatedCustomerService&api-version=2021-10-01&deploymentName=production
-QNA_KEY=4ce9d905343b406d8d4c1e2a37db8314
-CLU_ENDPOINT=https://customerservicebot.cognitiveservices.azure.com/language/:analyze-conversations?api-version=2022-10-01-preview
-CLU_KEY=4ce9d905343b406d8d4c1e2a37db8314
+QNA_ENDPOINT= "Your Link"
+QNA_KEY= "Key"
+CLU_ENDPOINT= "Your Link"
+CLU_KEY= "Key"
 ```
 
 **4. Save and exit the editor:**
